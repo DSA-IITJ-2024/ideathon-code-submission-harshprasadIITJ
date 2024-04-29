@@ -4,6 +4,8 @@
 The architechture of our system:
 
 ![GitHub Logo](image.png)
+
+
 We are getting the data from Faker library. We are taking fake weather and random temperature in the range 10-110 degrees.
 
 Then we are sending the data to apache kafka and then it is going to Apache Flink where we are processing it.
